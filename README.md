@@ -4,6 +4,16 @@
 
 An agent skill for building and updating complete ecommerce stores (digital/physical products, checkout, Supabase, admin dashboards, analytics, backups and security review), Arabic RTL and English.
 
+## أمثلة من المخرجات | Examples
+
+مخرجات فعلية من تجربة المهارة بطلب: «متجر عُماني صغير لكتب PDF عربية ودورات فيديو بالريال العُماني» — معاينة تفاعلية ببيانات تجريبية.
+
+Real output from testing the skill: a demo storefront for Arabic PDF books and training videos (OMR), with clearly labeled sample data.
+
+| Home | Product cards | Product detail |
+|---|---|---|
+| <img src="examples/01-home.jpg" width="260"> | <img src="examples/02-product-cards.jpg" width="260"> | <img src="examples/03-product-detail.jpg" width="260"> |
+
 ## Structure
 - `SKILL.md` — main instructions
 - `references/` — design, commerce controls, security & operations
