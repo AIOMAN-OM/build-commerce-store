@@ -1,0 +1,14 @@
+interface:
+  display_name: مصمم المتاجر الإلكترونية المتكاملة
+  short_description: بناء متاجر احترافية بالدفع والتحليلات وفحص الأمان
+  default_prompt: استخدم $build-commerce-store لبناء متجر متكامل، وابدأ بسؤالي عن
+    المنتجات والبلد والعملة والهوية.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
