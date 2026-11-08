@@ -9,6 +9,7 @@ Use an elegant Arabic-first storefront direction with a clear browsing and produ
 - Use warm ivory surfaces, dark navy typography and restrained copper/gold accents. Defaults: background #FAF9F6, text #192E38, accent #A97850, borders #E6E5DF, muted text #707979. Choose measured accessible color variants when needed.
 - Pair IBM Plex Sans Arabic for Arabic UI with its Latin face or a compatible readable Latin font. Use 400/500/600 weights, generous line height and a clear hierarchy. Respect font licences; bundle permitted assets where practical.
 - Use spacious editorial composition, modest 4–8px corner radii, fine borders and restrained shadows. Avoid crowded badges, heavy gradients and fabricated ratings.
+- Apply this palette exactly in previews and demos as well as full builds. Do not substitute other dominant colors (for example green hero banners or blue prices) unless the client supplies a different identity.
 - Offer an optional dark theme with equivalent readable contrast; suggested dark background #142128, surface #1C2B32, text #E8E5DC, accent #D1AB7F. Test text on every surface; do not recolor product artwork or the brand logo merely to switch theme.
 
 ## Default icons and buttons
@@ -45,7 +46,7 @@ Use a stable route per product, shareable URL, breadcrumb and title metadata. Sh
 
 Use independent cart and order-review pages. Show the selected edition/finish, quantity, unit/line price, editable quantities and removal. Present shipping and tax status honestly; an unconfigured amount is not a free service. Use OMR precision of three decimal places when Oman is the merchant country.
 
-For Oman, use the new Omani rial symbol from a verified official design, preferably a bundled vector rendered at its original proportions with clear spacing before the numeral. Provide an accessible “Omani rials / ريال عماني” label, isolate bidi order, and retain OMR for API/system currency codes. Verify current official artwork/guidelines when implementing; do not substitute the Saudi, Iranian or generic rial glyph. Do not force OMR or Oman's symbol for other countries.
+For Oman, use the new Omani rial symbol from a verified official design, preferably a bundled vector rendered at its original proportions with clear spacing before the numeral. Provide an accessible “Omani rials / ريال عماني” label, isolate bidi order, and retain OMR for API/system currency codes. Verify current official artwork/guidelines when implementing; do not substitute the Saudi, Iranian or generic rial glyph. Do not fall back to the text abbreviation ر.ع. or "RO" as the displayed price symbol for Omani stores, including quick previews; use it only inside the accessible label when the vector is unavailable and state that limitation. Do not force OMR or Oman's symbol for other countries.
 
 Account space includes a buyer library, order history and wishlist. Enable authentication, protected orders and expiring downloads only with genuine backend authorization. Keep setup blockers explicit. A UI library page is not proof of a working entitlement system.
 
